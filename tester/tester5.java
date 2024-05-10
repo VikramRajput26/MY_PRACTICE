@@ -20,7 +20,16 @@ public class tester5 {
 			boolean exit = false;
 
 			while (!exit) {
-				System.out.println("Options:\n1. Enter product\n2. Display products\n3. Exit\n4.Enter category name and price to filter products\n5.category name and discount\n");
+				System.out.println("Options:\n1. Enter product\n"
+						+ "2. Display products\n"
+						+ "3. Exit"
+						+ "\n4.Enter category name and price to filter products\n"
+						+ "\n5.category name and discount\n"
+						+ "6.Enter category name to display the sum of product prices\n"
+						+ "7.Enter category name to display the average of product prices\n"
+						+ "8.Enter category name to display sorted product names by price\n"
+						+ "9.Enter category name and minimum price to display product names\n"
+						+ "10.Enter category name to display sorted product names by manufacture date and price\n");
 				System.out.println("Choose an option:");
 
 				try {
